@@ -1,0 +1,82 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/*
+* ================================
+*     ===== Navbar edits =====
+* ================================
+*/
+
+nav {
+  margin-top: 15px;
+}
+
+.toggle-button {
+  font-size: 42px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.nav-item {
+  color: black;
+  padding: 15px;
+}
+
+.nav-item:hover {
+  color: black;
+  text-decoration: overline;
+  text-decoration-color: #000000;
+  text-decoration-style:dashed;
+}
+
+/*
+* ================================
+*     ===== Info edits =====
+* ================================
+*/
+
+.box {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*
+* ================================
+*     ===== Footer edits =====
+* ================================
+*/
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.links {
+  padding-top: 50px;
+}
+
+/*
+* ================================
+*     ===== Null edits =====
+* ================================
+*/
+
+.center {
+  display: flex;
+  justify-content: center;
+}
