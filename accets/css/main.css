@@ -1,0 +1,169 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #222222;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+/*
+* ================================
+*     ===== Navbar edits =====
+* ================================
+*/
+
+nav {
+  margin-top: 15px;
+}
+
+.toggle-button {
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.toggle-button:hover {
+  color: #fbbe03;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.nav-item {
+  color: #ffffff;
+  padding: 15px;
+}
+
+.nav-item:hover {
+  color: #fbbe03;
+  text-decoration: overline;
+  text-decoration-color: #fbbe03;
+  text-decoration-style:dashed;
+}
+
+/*
+* ================================
+*     ===== Info edits =====
+* ================================
+*/
+
+.box {
+  text-align: center;
+}
+
+.icon {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.icon img {
+  animation: float 6s ease-in-out infinite;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #fbbe03;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.header h4 {
+  text-align: center;
+  font-weight: lighter;
+  color: #fbbe03;
+}
+
+.header h3:hover {
+  letter-spacing: 5px;
+}
+
+.header h5{
+  font-weight: inherit;
+  margin-top: 20px;
+  color: #ffc40e;
+}
+
+
+/*
+* ================================
+*     ===== Info edits =====
+* ================================
+*/
+
+.info {
+  padding-top: 90px;
+}
+
+.boxinfo {
+  text-align: center;
+}
+
+.name {
+  padding-top: 15px;
+  color: #ffc40e;
+}
+
+.infotext {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  color: #ffc40e;
+}
+
+
+/*
+* ================================
+*     ===== Footer edits =====
+* ================================
+*/
+
+footer {
+  text-align: center;
+  padding-top: 6em;
+}
+
+footer h5 {
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.links {
+  padding-top: 50px;
+}
+
+/*
+* ================================
+*     ===== Null edits =====
+* ================================
+*/
+
+.center {
+  display: flex;
+  justify-content: center;
+}
