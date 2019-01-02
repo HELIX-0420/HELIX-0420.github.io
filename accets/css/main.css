@@ -1,19 +1,7 @@
 body {
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: #222222;
-}
-
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  background-color: #1F2225;
 }
 
 /*
@@ -28,11 +16,12 @@ nav {
 
 .toggle-button {
   font-size: 42px;
-  color: #ffffff;
+  color: #fbbe03;
 }
 
 .toggle-button:hover {
-  color: #fbbe03;
+  font-size: 42px;
+  color: #ffff;
 }
 
 .navbar-toggler:focus, .navbar-toggler:active {
@@ -46,14 +35,14 @@ nav {
 }
 
 .nav-item {
-  color: #ffffff;
+  color: #fbbe03;
   padding: 15px;
 }
 
 .nav-item:hover {
-  color: #fbbe03;
+  color: #ffff;
   text-decoration: overline;
-  text-decoration-color: #fbbe03;
+  text-decoration-color: #ffff;
   text-decoration-style:dashed;
 }
 
@@ -63,76 +52,24 @@ nav {
 * ================================
 */
 
+.title {
+  color: #ffff;
+  padding-top: 5.50em;
+}
+
+.title .col-sm-6 {
+}
+
 .box {
   text-align: center;
+  padding-top: 0.50em;
 }
 
-.icon {
-  margin-top: 50px;
-  text-align: center;
+.text {
+  padding-top: 3em;
+  padding-right: 1em;
+  color: #ffff;
 }
-
-.icon img {
-  animation: float 6s ease-in-out infinite;
-}
-
-.header {
-  padding-top: 40px;
-}
-
-.header h3 {
-  text-align: center;
-  font-weight: bold;
-  color: #fbbe03;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.header h4 {
-  text-align: center;
-  font-weight: lighter;
-  color: #fbbe03;
-}
-
-.header h3:hover {
-  letter-spacing: 5px;
-}
-
-.header h5{
-  font-weight: inherit;
-  margin-top: 20px;
-  color: #ffc40e;
-}
-
-
-/*
-* ================================
-*     ===== Info edits =====
-* ================================
-*/
-
-.info {
-  padding-top: 90px;
-}
-
-.boxinfo {
-  text-align: center;
-}
-
-.name {
-  padding-top: 15px;
-  color: #ffc40e;
-}
-
-.infotext {
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 18px;
-  color: #ffc40e;
-}
-
 
 /*
 * ================================
@@ -142,16 +79,8 @@ nav {
 
 footer {
   text-align: center;
-  padding-top: 6em;
+  padding-top: 10px;
 }
-
-footer h5 {
-  color: white;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 
 .links {
   padding-top: 50px;
