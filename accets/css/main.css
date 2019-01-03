@@ -70,22 +70,24 @@ nav {
 
 .title {
   color: #ffff;
-  padding-top: 5.50em;
+  padding-top: 7em;
   font-weight: bold;
   letter-spacing: 5px;
+  text-shadow: 2px 2px #fbbe03;
 }
 
 .title2 {
   color: #ffff;
-  padding-top: 6em;
+  padding-top: 7em;
   font-size: 21px;
   font-weight: bold;
   letter-spacing: 5px;
+  text-shadow: 2px 2px #ff0000;
 }
 
 
 .text {
-  padding-top: 3em;
+  padding-top: 4em;
   padding-right: 1em;
   color: #ffff;
   font-family: 'Source Code Pro', monospace;
@@ -93,11 +95,11 @@ nav {
 }
 
 .text2 {
-  padding-top: 3em;
+  padding-top: 2em;
   padding-right: 1em;
   color: #ffff;
   font-family: 'Source Code Pro', monospace;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*
