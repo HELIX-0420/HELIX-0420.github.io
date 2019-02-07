@@ -46,10 +46,15 @@
             </p>
           </div>
 
-          <div class="box col-xs-12 col-sm-6 col-md-5 col-lg-4">
-            <img src="https://softmania.org/images/voip/discord.png" width="900" height="545">
+          <div class="box col-xs-12 hidden-md-down col-sm-6 col-md-5 col-lg-4">
+            <widgetbot
+              server="373362559992070145"
+              channel="489228737901232162"
+              width="800"
+              height="450"
+              shard="https://cl3.widgetbot.io">
+            </widgetbot>
           </div>
-
         </div>
       </div>
 
@@ -82,7 +87,6 @@
             </h1>
 
             </div>
-
           </div>
         </div>
 
@@ -101,7 +105,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     <script src="accets/js/wow.min.js"></script>
     <script>new WOW().init();</script>
+    <div class="hidden-md-up">
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    new Crate({
+    server: '373362559992070145',
+    channel: '489228737901232162',
+    shard: 'https://cl3.widgetbot.io'
+   })
+   </script>
+   </div>
   </body>
 </html>

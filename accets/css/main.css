@@ -1,6 +1,6 @@
 
 body {
-  overflow-y: scroll;
+
   overflow-x: hidden;
   background-color: #1F2225;
 }
@@ -64,8 +64,9 @@ nav {
 }
 
 .box {
-  text-align: center;
-  padding-top: 0.50em;
+  padding-top: 6em;
+  margin-left: 44em;
+  position: absolute;
 }
 
 .title {
@@ -101,6 +102,7 @@ nav {
   font-family: 'Source Code Pro', monospace;
   font-size: 18px;
 }
+
 
 /*
 * ================================
