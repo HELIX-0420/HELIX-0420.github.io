@@ -1,7 +1,6 @@
 
 body {
 
-  overflow-x: hidden;
   background-color: #1F2225;
 }
 
@@ -103,7 +102,9 @@ nav {
   font-size: 18px;
 }
 
-
+.test {
+  padding-bottom: 100em;
+}
 /*
 * ================================
 *     ===== Footer edits =====
