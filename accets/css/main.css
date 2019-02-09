@@ -62,15 +62,9 @@ nav {
   float: left;
 }
 
-.box {
-  padding-top: 6em;
-  margin-left: 44em;
-  position: absolute;
-}
-
 .title {
   color: #ffff;
-  padding-top: 7em;
+  padding-top: 5em;
   font-weight: bold;
   letter-spacing: 5px;
   text-shadow: 2px 2px #fbbe03;
@@ -87,7 +81,7 @@ nav {
 
 
 .text {
-  padding-top: 4em;
+  padding-top: 2em;
   padding-right: 1em;
   color: #ffff;
   font-family: 'Source Code Pro', monospace;
@@ -112,8 +106,10 @@ nav {
 */
 
 footer {
+  border-top: 5px solid red;
   text-align: center;
   padding-top: 5em;
+  padding-bottom: 5em;
   color: #ffff;
 }
 
@@ -185,4 +181,94 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 	}
+}
+
+@media screen and (max-width: 1920px) {
+  .box {
+    padding-top: 5.50em;
+    margin-left: 41em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 836px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .box {
+    padding-top: 10em;
+    margin-left: 37em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 670px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .box {
+    padding-top: 10em;
+    margin-left: 42em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 571px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .box {
+    padding-top: 10em;
+    margin-left: 37em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .box {
+    padding-top: 10em;
+    margin-left: 37em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    padding-top: 10em;
+    margin-left: 35em;
+    position: absolute;
+  }
+
+  .widgetbot {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .box {
+      display: none;
+  }
 }
