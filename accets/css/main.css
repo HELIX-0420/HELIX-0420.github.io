@@ -271,4 +271,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   .box {
       display: none;
   }
+
+  .icon {
+      padding-top: 10em;
+  }
+
 }
