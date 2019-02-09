@@ -66,30 +66,12 @@ nav {
   text-shadow: 2px 2px #fbbe03;
 }
 
-.title2 {
-  color: #ffff;
-  padding-top: 7em;
-  font-size: 21px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  text-shadow: 2px 2px #ff0000;
-}
-
-
 .text {
   padding-top: 2em;
   padding-right: 1em;
   color: #ffff;
   font-family: 'Source Code Pro', monospace;
   font-size: 20px;
-}
-
-.text2 {
-  padding-top: 2em;
-  padding-right: 1em;
-  color: #ffff;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 18px;
 }
 
 .test {
@@ -196,6 +178,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-top: 15em;
   }
 
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -213,6 +213,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
   .icons {
     padding-top: 15em;
+  }
+
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
   }
 
 }
@@ -234,6 +252,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-top: 15em;
   }
 
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -251,6 +287,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
   .icons {
     padding-top: 15em;
+  }
+
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
   }
 
 }
@@ -272,6 +326,24 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-top: 15em;
   }
 
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -290,6 +362,25 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   .icons {
     padding-top: 15em;
   }
+
+  .title2 {
+    color: #ffff;
+    padding-top: 7em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -298,7 +389,25 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 
   .icons {
-      padding-top: 0em;
+      padding-top: 2.50em;
+  }
+
+  .title2 {
+    color: #ffff;
+    padding-top: 2.30em;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff0000;
+  }
+
+
+  .text2 {
+    padding-top: 2em;
+    padding-right: 1em;
+    color: #ffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
   }
 
 }
