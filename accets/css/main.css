@@ -236,13 +236,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 @media screen and (max-width: 1366px) {
   .box {
-    padding-top: 10em;
-    margin-left: 42em;
+    padding-top: 6em;
+    margin-left: 37em;
     position: absolute;
   }
 
   .widgetbot {
-    width: 571px;
+    width: 620px;
     height: 400px;
     position: absolute;
   }
