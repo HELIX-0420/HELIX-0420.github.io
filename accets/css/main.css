@@ -52,10 +52,6 @@ nav {
 * ================================
 */
 
-.icons {
-  padding-top: 15em;
-}
-
 .icons-img {
   margin-left: 2em;
   animation: float 2s ease-in-out infinite;
@@ -195,6 +191,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 400px;
     position: absolute;
   }
+
+  .icons {
+    padding-top: 15em;
+  }
+
 }
 
 @media screen and (max-width: 1440px) {
@@ -209,6 +210,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 400px;
     position: absolute;
   }
+
+  .icons {
+    padding-top: 15em;
+  }
+
 }
 
 @media screen and (max-width: 1366px) {
@@ -223,6 +229,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 400px;
     position: absolute;
   }
+
+  .icons {
+    padding-top: 15em;
+  }
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -237,6 +248,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 400px;
     position: absolute;
   }
+
+  .icons {
+    padding-top: 15em;
+  }
+
 }
 
 @media screen and (max-width: 1180px) {
@@ -251,6 +267,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 400px;
     position: absolute;
   }
+
+  .icons {
+    padding-top: 15em;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -264,6 +285,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     width: 400px;
     height: 400px;
     position: absolute;
+  }
+
+  .icons {
+    padding-top: 15em;
   }
 }
 
