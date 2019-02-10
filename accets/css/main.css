@@ -163,7 +163,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 @media screen and (max-width: 1920px) {
   .box {
     padding-top: 5.50em;
-    margin-left: 41em;
+    margin-left: 40em;
     position: absolute;
   }
 
@@ -186,10 +186,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     text-shadow: 2px 2px #ff0000;
   }
 
-
   .text2 {
     padding-top: 2em;
-    padding-right: 1em;
     color: #ffff;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
@@ -222,7 +220,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     letter-spacing: 5px;
     text-shadow: 2px 2px #ff0000;
   }
-
 
   .text2 {
     padding-top: 2em;
@@ -399,10 +396,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     text-shadow: 2px 2px #ff0000;
   }
 
-
   .text2 {
     padding-top: 2em;
-    padding-right: 1em;
     color: #ffff;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
