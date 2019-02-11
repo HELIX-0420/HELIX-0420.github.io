@@ -1,7 +1,21 @@
 
 body {
-
   background-color: #1F2225;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.30em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #11ffee00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fbbe03;
 }
 
 /*
@@ -40,9 +54,9 @@ nav {
 }
 
 .nav-item:hover {
-  color: #ffff;
-  text-decoration: overline;
-  text-decoration-color: #ffff;
+  color: #fbbe03;
+  text-decoration: underline;
+  text-decoration-color: #fff;
   text-decoration-style:dashed;
 }
 
@@ -183,7 +197,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
   .text2 {
@@ -218,7 +232,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
   .text2 {
@@ -254,7 +268,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
 
@@ -290,7 +304,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
 
@@ -327,7 +341,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
 
@@ -364,7 +378,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
 
@@ -393,7 +407,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 21px;
     font-weight: bold;
     letter-spacing: 5px;
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px #ed4040;
   }
 
   .text2 {
@@ -401,6 +415,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     color: #ffff;
     font-family: 'Source Code Pro', monospace;
     font-size: 18px;
+  }
+
+  #navbarNav {
+    text-align: center;
   }
 
 }
