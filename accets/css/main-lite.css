@@ -37,7 +37,7 @@ body {
 
 .left {
   float: left;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .right {
   float: right;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -99,6 +99,7 @@ body {
 .right:hover {
   text-decoration: none;
 }
+
 .info {
     background-color: #ffff;
     box-shadow: 1px 1px 15px 0 rgba(0,0,0,.11);
@@ -110,17 +111,17 @@ body {
 
 .info img {
     margin-top: 1em;
-    float: left;
     width: 155px;
+    float: left;
     background-color: #f4f0ff;
-    box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
     margin-right: 45px;
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
     border-radius: 100%;
     text-align: center;
 }
 
 .info h1 {
-    color: #282D31;
+    color: #6342B3;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -135,15 +136,17 @@ body {
 @media only screen and (max-width: 990px) {
 
   .info img {
-    margin-left: 80px;
+      margin-top: 1em;
+      width: 155px;
+      background-color: #f4f0ff;
+      box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
+      border-radius: 100%;
   }
 
   .info h1 {
-      color: #282D31;
       margin-top: 10px;
       margin-bottom: 10px;
       text-align: center;
-      margin-right: 10px;
       clear: both;
   }
 }
@@ -169,7 +172,7 @@ body {
   font-size: 29px;
   font-weight: bold;
   text-align: center;
-  color: #282D31;
+  color: #6342B3;
 }
 
 .jar label img {
@@ -184,7 +187,7 @@ body {
     padding: 6px;
     margin: 0px auto;
     margin-bottom: 20px;
-    color: white;
+    color: #ffff;
     text-align: center;
     border-radius: 5px;
     transition: 250ms;
@@ -234,7 +237,7 @@ body {
 }
 
 .jar td a:hover {
-  background-color: #303030;
+  background-color: #ffff;
   width: 100px;
   padding-top: 4px;
   padding-left: 6px;

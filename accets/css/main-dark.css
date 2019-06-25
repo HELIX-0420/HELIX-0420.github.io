@@ -37,7 +37,7 @@ body {
 
 .left {
   float: left;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .right {
   float: right;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: none;
 }
