@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #2E2E2E;
   overflow-x: hidden;
 }
 
@@ -106,8 +106,8 @@ body {
 }
 
 .info {
-    background-color: #ffff;
-    box-shadow: 1px 1px 15px 0 rgba(0,0,0,.11);
+    background-color: #212121;
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
     border-radius: 6px;
     padding: 35px 45px;
     margin-top: 28px;
@@ -116,27 +116,25 @@ body {
 
 .info img {
     margin-top: 1em;
-    width: 155px;
     float: left;
+    width: 155px;
     background-color: #f4f0ff;
     margin-right: 45px;
-    box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
     border-radius: 100%;
     text-align: center;
 }
 
 .info h1 {
-    color: #6342B3;
+    color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .info p {
-    color: #282D31;
+    color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
-    padding-left: 15px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -149,7 +147,7 @@ body {
   }
 
   .info {
-      background-color: #ffff;
+      background-color: #212121;
       box-shadow: 1px 1px 15px 0 rgba(0,0,0,.11);
       border-radius: 6px;
       margin-top: 28px;
@@ -174,7 +172,6 @@ body {
       text-align: center;
       clear: both;
   }
-
 }
 
 .jar {
@@ -182,10 +179,9 @@ body {
   margin-bottom: 2.50;
   text-align: center;
   border-radius: 6px;
-  background-color: #fff;
+  background-color: #212121;
   color: #777777;
   width: auto;
-  box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
 }
 
 .jar thead {
@@ -198,7 +194,7 @@ body {
   font-size: 29px;
   font-weight: bold;
   text-align: center;
-  color: #6342B3;
+  color: #fff;
 }
 
 .jar label img {
@@ -213,7 +209,7 @@ body {
     padding: 6px;
     margin: 0px auto;
     margin-bottom: 20px;
-    color: #ffff;
+    color: white;
     text-align: center;
     border-radius: 5px;
     transition: 250ms;
@@ -263,7 +259,7 @@ body {
 }
 
 .jar td a:hover {
-  background-color: #ffff;
+  background-color: #303030;
   width: 100px;
   padding-top: 4px;
   padding-left: 6px;
@@ -280,6 +276,40 @@ body {
 
 .jar td i {
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .jar th {
+      text-align: center;
+      color: #777777;
+      padding: 14px;
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+  .jar td a {
+    background-color: #6342B3;
+    width: 120px;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: 250ms;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .jar td i {
+    margin-right: 5px;
+  }
+
 }
 
 .footer {
