@@ -1,17 +1,13 @@
-var dark = false;
+// Check if dark theme has been enabled
+if (getCookie('lite') === 'true') {
+  document.querySelector(".theme").setAttribute("href", "assets/css/main-lite.css");
+  document.querySelector(".switch").innerHTML = "🌑";
+} else {
+  document.querySelector(".theme").setAttribute("href", "assets/css/main-dark.css");
+  document.querySelector(".switch").innerHTML = "🌞";
+}
 
-document.querySelector(".switch").addEventListener("click", function() {
-    if (getCookie(dark) == true) {
-        document.querySelector(".theme").setAttribute("href", "assets/css/main-lite.css");
-        document.querySelector(".switch").innerHTML = "🌑";
-        document.cookie = dark = false;
-    } else {
-        document.querySelector(".theme").setAttribute("href", "assets/css/main-dark.css");
-        document.querySelector(".switch").innerHTML = "🌞";
-        document.cookie = dark = true;
-    }
-});
-
+// Functions for getting/setting cookie
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -33,3 +29,18 @@ function getCookie(cname) {
   }
   return "";
 }
+
+// Set theme
+document.querySelector(".switch").addEventListener("click", function() {
+  if (document.querySelector(".switch").innerHTML === "🌑") {
+      document.querySelector(".theme").setAttribute("href", "assets/css/main-dark.css");
+      document.querySelector(".switch").innerHTML = "🌞";
+      
+      setCookie("lite", "false", 30);
+  } else {
+      document.querySelector(".theme").setAttribute("href", "assets/css/main-lite.css");
+      document.querySelector(".switch").innerHTML = "🌑";
+
+      setCookie("lite", "true", 30);
+  }
+});
