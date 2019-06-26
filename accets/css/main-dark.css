@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+* {
+ transition: background 1s;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 0.40em;
@@ -142,16 +146,30 @@ body {
     height: 65px;
   }
 
+  .info {
+      background-color: #212121;
+      box-shadow: 1px 1px 15px 0 rgba(0,0,0,.11);
+      border-radius: 6px;
+      margin-top: 28px;
+      float: none;
+      text-align:center;
+  }
+
   .info img {
-    margin-left: 80px;
+      margin-top: 1em;
+      width: 148px;
+      margin-left: 42px;
+      background-color: #f4f0ff;
+      box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
+      border-radius: 100%;
+      text-align:center;
+      float: none;
   }
 
   .info h1 {
-      color: #fff;
       margin-top: 10px;
       margin-bottom: 10px;
       text-align: center;
-      margin-right: 10px;
       clear: both;
   }
 }
