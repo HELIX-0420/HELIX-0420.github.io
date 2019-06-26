@@ -1,0 +1,275 @@
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.40em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #11ffee00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6342B3;
+}
+
+.top {
+  background-color: #282D31;
+  width: 200em;
+  text-align: center;
+}
+
+.top img {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  width: auto;
+  height: 95px;
+}
+
+.nav {
+  background-color: #282D31;
+  padding-bottom: 1em;
+}
+
+.left {
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.left:hover {
+  text-decoration: none;
+}
+
+.homebtn {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.homebtn i {
+  margin-right: 4px;
+  color: #fff;
+}
+
+.homebtn:hover{
+  color: #fff;
+}
+
+.apibtn {
+  color: #fff;
+}
+
+.apibtn i {
+  margin-right: 4px;
+  color: #fff;
+}
+
+.apibtn:hover{
+  color: #fff;
+}
+
+.switch {
+  margin-left: 14px;
+}
+
+.discordbtn {
+  color: #fff;
+}
+
+.discordbtn:hover {
+  color: #fff;
+}
+
+.discordbtn i {
+  color: #fff;
+  margin-right: 4px;
+}
+
+.right {
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.right:hover {
+  text-decoration: none;
+}
+
+.info {
+    background-color: #ffff;
+    box-shadow: 1px 1px 15px 0 rgba(0,0,0,.11);
+    border-radius: 6px;
+    padding: 35px 45px;
+    margin-top: 28px;
+    float: left;
+}
+
+.info img {
+    margin-top: 1em;
+    width: 155px;
+    float: left;
+    background-color: #f4f0ff;
+    margin-right: 45px;
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
+    border-radius: 100%;
+    text-align: center;
+}
+
+.info h1 {
+    color: #6342B3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #282D31;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 990px) {
+
+  .info img {
+      margin-top: 1em;
+      width: 155px;
+      background-color: #f4f0ff;
+      box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
+      border-radius: 100%;
+  }
+
+  .info h1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      clear: both;
+  }
+}
+
+.jar {
+  margin-top: 2em;
+  margin-bottom: 2.50;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #777777;
+  width: auto;
+  box-shadow: 1px 1px 6px 0 rgba(0,0,0,.11);
+}
+
+.jar thead {
+  text-align: center;
+}
+
+.jar label {
+  margin-top: 0.80em;
+  margin-bottom: 0.80em;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  color: #6342B3;
+}
+
+.jar label img {
+  width: 45px;
+  padding-right: 15px;
+}
+
+.jar .latest {
+    background-color: #6342B3;
+    width: 200px;
+    display: block;
+    padding: 6px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: 250ms;
+    text-decoration: none;
+    text-align: center;
+}
+
+.jar .latest:hover {
+  -webkit-transform:translate(0px,-6px);
+  -moz-transform:translate(0px,-6px);
+  -ms-transform:translate(0px,-6px);
+  -o-transform:translate(0px,-6px);
+  transform:translate(0px,-6px);
+  }
+
+.jar th {
+    text-align: center;
+    color: #777777;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jar td {
+    padding: 15px 1px 20px 9px;
+    font-size: 14px;
+    font-weight: inherit;
+    text-align: center;
+}
+
+.jar td a {
+  background-color: #6342B3;
+  width: 100px;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  margin: 0px auto;
+  margin-bottom: 0px;
+  color: #ffff;
+  text-align: center;
+  border-radius: 5px;
+  transition: 250ms;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.jar td a:hover {
+  background-color: #ffff;
+  width: 100px;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  margin: 0px auto;
+  margin-bottom: 0px;
+  color: #777777;
+  text-align: center;
+  border-radius: 5px;
+  transition: 250ms;
+  text-decoration: none;
+}
+
+.jar td i {
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.footer img {
+  width: 100px;
+  color: #fff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.table-center {
+  margin-left:auto;
+  margin-right:auto;
+}

@@ -7,7 +7,7 @@ document.querySelector(".switch").addEventListener("click", function() {
         dark = false;
     } else {
         document.querySelector(".theme").setAttribute("href", "accets/css/main-dark.css");
-        document.querySelector(".switch").innerHTML = "☀";
+        document.querySelector(".switch").innerHTML = "🌞";
         dark = true;
     }
 });
