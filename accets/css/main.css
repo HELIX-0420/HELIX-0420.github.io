@@ -61,6 +61,13 @@ img {
 @media only screen
 and (min-width : 321px) {
 
+  #center {
+     position: absolute;
+     left: 30%;
+     top: 55%;
+     margin-left: -150px;
+     margin-top: -150px;
+  }
 
 }
 
