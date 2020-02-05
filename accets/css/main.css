@@ -1,0 +1,62 @@
+body, html {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+canvas {
+    position:absolute;
+    top:0;
+    left:0
+}
+
+#centered{
+  height: 500px;
+  position:absolute;
+  right:0;
+  left:0;
+  margin:auto;
+}
+
+.navv {
+ position: relative;
+}
+
+.title {
+  padding-top: 6em;
+}
+
+.navv p{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #ffff;
+}
+
+.OrderBTN {
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #ffff;
+  border-color: #000;
+  border-width: 2px;
+}
+
+.OrderBTN:hover {
+  color: #000;
+  background-color: #ffff;
+  border-color: #000;
+}
+
+img {
+  margin-right: 8px;
+}
