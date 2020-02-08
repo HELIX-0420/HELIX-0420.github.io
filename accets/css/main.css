@@ -154,3 +154,40 @@ button:focus {
     font-size: 10px;
   }
 }
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #HomeNav button img {
+    height: 25px;
+    margin-right: 2px;
+  }
+  #HomeNav .navbar-brand {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #HomeNav .navbar-brand img {
+    height: 25px;
+  }
+  #HomeNav .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 1em;
+  }
+  #HomeHeader .intro-text {
+    text-align: center;
+    padding-top: 8em;
+  }
+  #HomeHeader .intro-text .intro-lead-in {
+    font-size: 30px;
+  }
+  #HomeHeader .intro-text .intro-heading {
+    font-size: 14px;
+  }
+  #HomeHeader .btn-ordernow {
+    font-size: 10px;
+  }
+  #HomeHeader .btn-learnmore {
+    font-size: 10px;
+  }
+}
