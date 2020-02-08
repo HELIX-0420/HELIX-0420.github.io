@@ -190,3 +190,38 @@ button:focus {
     font-size: 14px;
   }
 }
+
+@media screen and (orientation:landscape) {
+  #HomeNav button img {
+    height: 30px;
+    margin-right: 2px;
+  }
+  #HomeNav .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #HomeNav .navbar-brand img {
+    height: 30px;
+  }
+  #HomeNav .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 1em;
+  }
+  #HomeHeader .intro-text {
+    padding-top: 8em;
+  }
+  #HomeHeader .intro-text .intro-lead-in {
+    font-size: 30px;
+  }
+  #HomeHeader .intro-text .intro-heading {
+    font-size: 11px;
+  }
+  #HomeHeader .btn-ordernow {
+    font-size: 11px;
+  }
+  #HomeHeader .btn-learnmore {
+    font-size: 11px;
+  }
+}
