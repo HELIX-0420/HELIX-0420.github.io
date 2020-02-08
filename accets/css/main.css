@@ -1,60 +1,156 @@
-body, html {
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-canvas {
-    position:absolute;
-    top:0;
-    left:0
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+
+body {
+  overflow-x: hidden;
+  font-family: open sans, sans-serif;
+  background-color: #ffffff;
 }
 
-#center {
-  height: 210px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+button:focus {
+  outline: 0;
 }
 
-.navv {
- position: relative;
+/*
+* ================================
+*     ===== HomePage NavBar =====
+* ================================
+*/
+#HomeNav {
+  padding-top: 1.5em;
+  background-color: #fff;
 }
 
-.navv p{
-  font-size: 60px;
-  text-align: center;
+#HomeNav button img {
+  height: 20px;
+  margin-top: 2px;
+  margin-right: 20px;
+}
+
+#HomeNav a {
+  color: #ff9f43;
+}
+
+#HomeNav a:hover {
+  color: #db8838;
+  text-decoration: none;
+}
+
+#HomeNav .navbar-brand {
+  color: #FBB03B;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#HomeNav .navbar-brand img {
+  height: 20px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+#HomeNav .navbar-nav .nav-item {
+  margin-left: 30px;
+}
+
+#HomeNav .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/*
+* ================================
+*     ===== HomePage Header =====
+* ================================
+*/
+#HomeHeader {
+  padding: 0;
+  margin: 0;
+}
+
+#HomeHeader .intro-text {
+  padding-top: 21em;
+  padding-bottom: 20em;
+}
+
+#HomeHeader .intro-text .intro-lead-in {
+  font-size: 42px;
+  padding-bottom: 25px;
+  color: #343434;
   font-weight: bold;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  color: #ffff;
 }
 
-.OrderBTN {
-  text-align: center;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 8px;
-  padding-bottom: 8px;
+#HomeHeader .intro-text .intro-heading {
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: #A89CB6;
+}
+
+#HomeHeader .btn-ordernow {
+  padding: 6px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 100em;
+  border-color: #ff9f43;
+  color: #ffffff;
+  background-color: #ff9f43;
+}
+
+#HomeHeader .btn-ordernow:hover {
+  background-color: #db8838;
+  color: #ffffff;
+  border-color: #db8838;
+}
+
+#HomeHeader .btn-learnmore {
   margin-left: 10px;
-  color: #000;
-  background-color: #ffff;
-  border-color: #000;
-  border-width: 2px;
+  border-radius: 100em;
+  border-color: #db8838;
+  padding: 6px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #A89CB6;
 }
 
-.OrderBTN:hover {
-  color: #000;
-  background-color: #ffff;
-  border-color: #000;
+#HomeHeader .btn-learnmore:hover {
+  background-color: #db8838;
+  color: #ffffff;
+  border-color: #db8838;
 }
 
-img {
-  margin-right: 8px;
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+  #HomeNav button img {
+    height: 25px;
+    margin-right: 2px;
+  }
+  #HomeNav .navbar-brand {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #HomeNav .navbar-brand img {
+    height: 25px;
+  }
+  #HomeNav .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 1em;
+  }
+  #HomeHeader .intro-text {
+    text-align: center;
+    padding-top: 8em;
+  }
+  #HomeHeader .intro-text .intro-lead-in {
+    font-size: 30px;
+  }
+  #HomeHeader .intro-text .intro-heading {
+    font-size: 14px;
+  }
+  #HomeHeader .btn-ordernow {
+    font-size: 10px;
+  }
+  #HomeHeader .btn-learnmore {
+    font-size: 10px;
+  }
 }
