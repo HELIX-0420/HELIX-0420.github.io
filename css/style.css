@@ -2,7 +2,7 @@
   font-size: 16px;
   font-family: "Open Sans";
   --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
+  --text-secondary: #ff3153;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
 }
@@ -52,6 +52,35 @@ main {
   height: 100%;
 }
 
+.logo .fas {
+  font-size: 35px;
+  transform: rotate(0deg);
+  transition: 200ms ease;
+}
+
+.navbar:hover .logo .fas{
+  transform: rotate(-180deg);
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  font-size: 1.5rem;
+  letter-spacing: 0.3ch;
+  width: 100%;
+}
+
+.logo-text {
+  display: inline;
+  transition: 200ms ease;
+  padding-right: 10px;
+  padding-left: 3rem;
+}
+
 .nav-item {
   width: 100%;
 }
@@ -82,7 +111,7 @@ main {
 
 .nav-link .fas:hover{
   filter: grayscale(0%) opacity(1);
-  color: #df49a6;
+  color: #ff3153;
 }
 
 .link-text {
@@ -96,6 +125,10 @@ main {
     bottom: 0;
     width: 100vw;
     height: 5rem;
+  }
+
+  .logo {
+    display: none;
   }
 
   .navbar-nav {
