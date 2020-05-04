@@ -7,6 +7,8 @@
   --bg-secondary: #141418;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 body {
   color: black;
   background-color: white;
@@ -32,6 +34,9 @@ main {
 }
 
 .navbar {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
   position: fixed;
   background-color: var(--bg-primary);
   transition: 200ms ease;
