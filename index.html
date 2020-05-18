@@ -1,68 +1,198 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Daniel Portfolio</title>
 
-    <!-- fontawesome CSS -->
-    <script src="https://kit.fontawesome.com/c7d770e8f2.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+<head>
 
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="logo">
-          <a href="#" class="nav-link">
-            <span class="link-text logo-text">HΞLIX</span>
-            <i class="fas fa-angle-double-right fa-xs fa-fw fa-pull-right"></i>
-          </a>
-        </li>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MelodyBot</title>
+    <meta name="description" content="Description">
+    <meta name="author" content="polite#1745">
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-chevron-up a-xs fa-fw fa-pull-right"></i>
-            <span class="link-text">HOME</span>
-          </a>
-        </li>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-user-secret fa-fw fa-pull-right"></i>
-            <span class="link-text">ABOUT ME</span>
-          </a>
-        </li>
+</head>
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-project-diagram a-xs fa-fw fa-pull-right"></i>
-            <span class="link-text">PROJECTS</span>
-          </a>
-        </li>
+<body>
 
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fas fa-sun a-xs fa-fw fa-pull-right"></i>
-            <span class="link-text">THEMES</span>
-          </a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="78px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Radio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://top.gg/bot/591862928764829716/vote">Vote</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/CR624yD">Discord</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=591862928764829716&scope=bot&permissions=35341608">Invite</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <main>
-      <h1>Tech Bubble Is Bursting...</h1>
+    <section class="intro">
+        <div class="bg__img1 mobile-hide"></div>
+        <div class="container-fluid plr-200">
+            <div class="row intro-about">
+                <div class="col-md-7 small-100-width">
+                    <h1>About</h1>
+                    <p>Melody is a Discord bot which allows you & your friends to listen to your favourite music on the fly. Melody supports various music platforms, including Spotify, Soundcloud, and YouTube. Melody brings music on demand to your server.</p>
+                </div>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </main>
+                <img src="assets/img/logo.png" class="img-fluid" style="position: absolute; margin-top: -122px; opacity: .6; right: 0px;" />
 
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/animation.gsap.min.js"></script>
-    <script src="js/TimelineLite.min.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/CSSPlugin.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+                <div class="col-md-7 mt-5 medium-100-width">
+                    <div class="discordwidget-box">
+                        <widgetbot class="wb" server="593380651856691202" channel="684978863868084240" width="100%" height="450" shard="https://e.widgetbot.io"></widgetbot>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container-fluid plr-200 text-center">
+            <h1><span>Melody</span> is currently helping</h1>
+
+            <div class="row mt-5-n justify-content-center">
+                <div class="col-lg-4">
+                    <div class="statbox u">
+                        <center>
+                            <div class="inner-statbox">
+                                <i class="fas fa-users"></i>
+                                <div class="container">
+                                    <div class="count">
+                                        339,044
+                                    </div>
+                                    <div class="count-title text-left">USERS</div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="statbox u">
+                        <center>
+                            <div class="inner-statbox">
+                                <i class="fab fa-discord"></i>
+                                <div class="container">
+                                    <div class="count">
+                                        714
+                                    </div>
+                                    <div class="count-title text-left">SERVERS</div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="statbox u">
+                        <center>
+                            <div class="inner-statbox">
+                                <i class="fas fa-hashtag"></i>
+                                <div class="container">
+                                    <div class="count">
+                                        12,312
+                                    </div>
+                                    <div class="count-title text-left">CHANNELS</div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="socialbox text-center">
+                <a href="https://twitter.com/MelodyDiscord">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="https://www.twitch.tv/Melody__bot">
+                    <i class="fab fa-twitch"></i>
+                </a>
+
+                <a href="https://discord.com/invite/CR624yD">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="whyus">
+        <div class="bg__img2 mobile-hide"></div>
+        <div class="bg__img3 mobile-hide"></div>
+        <div class="container-fluid  plr-200">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1>Why us?</h1>
+                    <p>Our experienced, and vetted developers are continuously working on Melody in order to make it the best music bot to choose from, and with so much competition out there we hold ourselves to a higher standard while constantly incorporating community feedback into new revisions.</p>
+
+                    <div class="features">
+                        <div class="bg__img4"></div><h4><i class="fas fa-play"></i> Music</h4>
+                        <p>Choose from your favourite streaming service, Spotify, SoundCloud, or YouTube!</p>
+
+                        <h4><i class="fas fa-clock"></i> 99.99% UPTIME</h4>
+                        <p>Melody is reliable, and will be online unless we are applying feature packed updates.</p>
+
+                        <h4><i class="fas fa-microphone"></i> Voice Commands</h4>
+                        <p>Coming soon, you will have the ability to control Melody entirely with your voice.</p>
+
+                        <h4><i class="fab fa-twitch"></i> Streamers</h4>
+                        <p>Listening while gaming? Tune into your favourite streamers!</p>
+
+                        <h4><i class="fas fa-compact-disc"></i> radio stations</h4>
+                        <p>Melody will allow you to easily listen to 50+ radio stations!</p>
+
+                        <h4><i class="fas fa-tachometer-alt"></i> Fast Response</h4>
+                        <p>With our speedy servers, Melody will respond to your command in a heart beat!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <img src="assets/img/footer.png" width="100%" style="margin-top: -10rem;">
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Copyright © 2020 <a href="#">Melody Bot</a></p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="d-inline-flex">
+                        <p style="margin-right: 10px;"><a href="#">Terms of Use  </a></p>
+                        <p><a href="#">  Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<div class="text-center" id="footer">
+        <div class="container">
+            <p class="text-muted credit">Copyright © 2020 <a href="#">Melody Bot</a> Designed by <a href="http://polite.dev/referral/melody">Polite.dev</a>.</p>
+        </div>
+    </div>-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
 </html>
