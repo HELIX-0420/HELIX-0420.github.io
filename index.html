@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/hover-min.css">
+
+    <style>
+        .scrollbar-track-x {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+        }
+
+        <style>.scrollbar-track {
+            position: absolute;
+            opacity: 0;
+            z-index: 1;
+            background: rgba(222, 222, 222, .75);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-transition: opacity 0.5s 0.5s ease-out;
+            transition: opacity 0.5s 0.5s ease-out;
+        }
+
+        .scrollbar-track {
+            background: rgba(0, 0, 0, 0) !important;
+        }
+    </style>
 
 </head>
 
@@ -19,7 +46,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" width="78px"></a>
+            <a class="navbar-brand" href="#"><img src="assets/img/navlogo.png" height="78px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,16 +54,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Radio</a>
+                        <a class="nav-link hvr-underline-from-center" href="#">Radio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://top.gg/bot/591862928764829716/vote">Vote</a>
+                        <a class="nav-link hvr-underline-from-center" href="#">Vote</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://discord.com/invite/CR624yD">Discord</a>
+                        <a class="nav-link hvr-underline-from-center" href="#">Discord</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=591862928764829716&scope=bot&permissions=35341608">Invite</a>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center" href="#">Invite</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +76,7 @@
             <div class="row intro-about">
                 <div class="col-md-7 small-100-width">
                     <h1>About</h1>
-                    <p>Melody is a Discord bot which allows you & your friends to listen to your favourite music on the fly. Melody supports various music platforms, including Spotify, Soundcloud, and YouTube. Melody brings music on demand to your server.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam voluptates, inventore quia labore autem, distinctio impedit rerum soluta quidem quae placeat eligendi sed iusto modi maxime dignissimos animi odio iste earum, sapiente ullam quam!</p>
                 </div>
 
                 <img src="assets/img/logo.png" class="img-fluid" style="position: absolute; margin-top: -122px; opacity: .6; right: 0px;" />
@@ -118,15 +145,15 @@
             </div>
 
             <div class="socialbox text-center">
-                <a href="https://twitter.com/MelodyDiscord">
+                <a href="#">
                     <i class="fab fa-twitter"></i>
                 </a>
 
-                <a href="https://www.twitch.tv/Melody__bot">
+                <a href="#">
                     <i class="fab fa-twitch"></i>
                 </a>
 
-                <a href="https://discord.com/invite/CR624yD">
+                <a href="#">
                     <i class="fab fa-discord"></i>
                 </a>
             </div>
@@ -140,33 +167,34 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <h1>Why us?</h1>
-                    <p>Our experienced, and vetted developers are continuously working on Melody in order to make it the best music bot to choose from, and with so much competition out there we hold ourselves to a higher standard while constantly incorporating community feedback into new revisions.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam voluptates, inventore quia labore autem, distinctio impedit rerum soluta quidem quae placeat eligendi sed iusto modi maxime dignissimos animi odio iste earum, sapiente ullam quam!</p>
 
                     <div class="features">
-                        <div class="bg__img4"></div><h4><i class="fas fa-play"></i> Music</h4>
-                        <p>Choose from your favourite streaming service, Spotify, SoundCloud, or YouTube!</p>
+                        <div class="bg__img4"></div>
+                        <h4><i class="fas fa-play"></i> Music</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
 
                         <h4><i class="fas fa-clock"></i> 99.99% UPTIME</h4>
-                        <p>Melody is reliable, and will be online unless we are applying feature packed updates.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
 
                         <h4><i class="fas fa-microphone"></i> Voice Commands</h4>
-                        <p>Coming soon, you will have the ability to control Melody entirely with your voice.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
 
                         <h4><i class="fab fa-twitch"></i> Streamers</h4>
-                        <p>Listening while gaming? Tune into your favourite streamers!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
 
                         <h4><i class="fas fa-compact-disc"></i> radio stations</h4>
-                        <p>Melody will allow you to easily listen to 50+ radio stations!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
 
                         <h4><i class="fas fa-tachometer-alt"></i> Fast Response</h4>
-                        <p>With our speedy servers, Melody will respond to your command in a heart beat!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, repellat.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <img src="assets/img/footer.png" width="100%" style="margin-top: -10rem;">
+    <img src="assets/img/footerunder.png" class="move" width="100%">
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -175,13 +203,15 @@
                 </div>
                 <div class="col-md-6 text-right">
                     <div class="d-inline-flex">
-                        <p style="margin-right: 10px;"><a href="#">Terms of Use  </a></p>
-                        <p><a href="#">  Privacy Policy</a></p>
+                        <p style="margin-right: 10px;"><a href="#">Terms of Use </a></p>
+                        <p><a href="#"> Privacy Policy</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
+
 
     <!--<div class="text-center" id="footer">
         <div class="container">
@@ -193,6 +223,37 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/smooth-scrollbar.js"></script>
+    <script>
+        let scrollbar = initialize_scroll();
+
+        const open = document.querySelector('.control.hamburger > i');
+        const close = document.querySelector('.control.close-hamburger > i');
+        const nav = document.querySelector('#nav');
+
+        open.addEventListener('click', () => {
+            nav.setAttribute('class', 'active');
+            scrollbar.scrollIntoView(document.querySelector('#header'));
+        });
+
+        close.addEventListener('click', () => {
+            nav.setAttribute('class', 'despawning');
+        });
+
+        document.querySelector('.scroll-content').addEventListener('wheel', check_nav);
+        document.querySelector('.scroll-content').addEventListener('touchmove', check_nav);
+
+        function initialize_scroll() {
+            return Scrollbar.init(document.body, {
+                damping: 0.1,
+                syncCallbacks: true
+            });
+        };
+
+            $(document).ready(function() {
+                $(this).scrollTop(0);
+            });
+    </script>
 </body>
 
 </html>
