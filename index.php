@@ -37,6 +37,9 @@
                         <a class="nav-link hvr-underline-from-center" href="#">Discord</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link hvr-underline-from-center" href="#">Partner</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link hvr-underline-from-center" href="#">Invite</a>
                     </li>
                 </ul>
