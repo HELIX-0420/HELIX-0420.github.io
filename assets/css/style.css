@@ -8,6 +8,21 @@
     --hover: #e62c4b;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--cardbg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
 * {
     max-width: 100%;
 }
@@ -79,7 +94,7 @@ body {
 }
 
 .nav-link {
-    padding: 0px!important;
+    padding: 0px !important;
     margin-right: 0rem;
     margin-left: 0rem;
 }
