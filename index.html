@@ -1,0 +1,1068 @@
+<html>
+
+    <head>
+        <title>Melody</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div id="navigation-top">
+
+            <div class="navTop-left">
+                <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643205264834573/Melody-Icon-Name.png" class="navBrand">
+            </div>
+
+            <div class="navTop-right">
+                <a href="#" class="navTop_link hvr-underline-from-center">Radio</a>
+                <a href="#" class="navTop_link hvr-underline-from-center">Vote</a>
+                <a href="#" class="navTop_link hvr-underline-from-center">Discord</a>
+                <a href="#" class="navTop_link hvr-underline-from-center">Partner</a>
+                <a href="#" class="navTop_link hvr-underline-from-center">Staff</a>
+                <a href="#" class="navTop_link hvr-underline-from-center">Invite</a>
+
+
+                <a href="#" class="profileHover" onclick="DropOpen()">
+                 <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="profileLogged">
+                    
+                 <div id="dropdown-content" style="display: none;">
+                    <p class="dropdownText"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="18px;" style="position:relative;top:2px;left:-2px;"> 12, 525</p>
+                    <p class="dropdownText-lg"  onmouseout="DropClose()"><i class="fas fa-sign-out-alt"></i> Logout</p>
+                    </div>
+                
+                </a>
+            </div>
+
+        </div>
+
+
+<div class="main-Content"> <!-- MAIN CONTENT -->
+
+        <div class="sideBar-server"> <!-- sidebar server -->
+
+            <div class="sideBar-server-box">
+                <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="server-image imgSel">
+            </div>
+
+            <div class="sideBar-server-box">
+                <img src="https://cdn.discordapp.com/attachments/712672325094473769/719201496650219580/Discord2.jpg" class="server-image">
+            </div>
+
+            <div class="sideBar-server-box">
+                <img src="https://cdn.discordapp.com/attachments/712672325094473769/719201498239860787/Discord1.jpg" class="server-image">
+            </div>
+
+        </div> <!-- sidebar server -->
+
+        <div class="sideBar-nav">
+
+            <p class="sideBar-nav-title">
+                General
+            </p>
+
+            <a href="#" class="sideBar-navLink" id="se1" onclick="openCity(event, 'Settings'), openClass()"><i class="fas fa-cog"></i> Server Settings</a>
+            <a href="#" class="sideBar-navLink" id="se2" onclick="openCity(event, 'Commands'), openClass2()"><i class="fas fa-terminal"></i> Commands</a>
+
+            <!-- NEW NAV -->
+
+            <p class="sideBar-nav-title">
+                Shop
+            </p>
+
+            <a href="#" class="sideBar-navLink" id="se3" onclick="openCity(event, 'MelodyCoins'), openClass3()"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="20p;" style="position:relative;top:2px;left:-2px;">Melody Coins</a>
+            <a href="#" class="sideBar-navLink" id="se4" onclick="openCity(event, 'VoiceCommands'), openClass4()"><i class="fas fa-microphone"></i> Voice Commands</a>
+            <a href="#" class="sideBar-navLink" id="se5" onclick="openCity(event, 'RudeCommands'), openClass5()"><i class="fas fa-keyboard"></i> Rude Commands</a>
+
+            <!-- NEW NAV -->
+
+            <p class="sideBar-nav-title">
+                Leaderboard
+            </p>
+
+            <a href="#" class="sideBar-navLink" id="se6" onclick="openCity(event, 'TopServers'), openClass6()"><i class="fas fa-chart-bar"></i> Top 10 Servers</a>
+            <a href="#" class="sideBar-navLink" id="se7" onclick="openCity(event, 'TopSongs'), openClass7()"><i class="fas fa-chart-bar"></i> Top 10 Songs</a>
+            <a href="#" class="sideBar-navLink" id="se8" onclick="openCity(event, 'TopRadios'), openClass8()"><i class="fas fa-chart-bar"></i> Top 10 Radios</a>
+            <a href="#" class="sideBar-navLink" id="se9" onclick="openCity(event, 'RichestUser'), openClass9()"><i class="fas fa-wallet"></i> Richest Users</a>
+
+            
+
+        </div>
+
+        <div class="box-content tabcontent" id="Settings">
+
+            <p class="titleBox">
+                Server Settings
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                
+
+                <div class="content-row">
+
+                    <div class="dashboard">
+                        Welcome to your dashboard here is where you can see your server
+                        settings for melody.
+                    </div>
+
+                    <div class="content-column dashboard-col">
+
+                        <div class="graph-box">
+                            
+                            <p class="graph-title">
+                                Bot Usage
+                            </p>
+
+                        </div>
+
+                        <div class="flex-row">
+                            
+                            <div class="topList2">
+
+                                <input name="prefix" class="PrefixInput" placeholder="Current Prefix is (x)">
+
+                            </div>
+
+                            <div class="topList2">
+
+                                <input name="prefix" class="PrefixInput" placeholder="Current Prefix is (x)">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contentScroll2"></div>
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="Commands">
+
+            <p class="titleBox">
+                Commands
+            </p>
+
+
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="dashboard">
+                        Welcome to your dashboard here is where you can see your server
+                        settings for melody.
+                    </div>
+
+                    <div class="content-column dashboard-col">
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contentScroll2"></div>
+
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="MelodyCoins">
+
+            <p class="titleBox">
+                MelodyCoins
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="dashboard">
+                        Melody Coins is our new currency for you so you acn buy our Premium Features,
+                        <br></br> such as Voice Commands, Rude Commands, and more!
+                    </div>
+
+                    <div class="content-column dashboard-col">
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">$5 | 5,000 Melody Coins</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">$25 | 25,000 Melody Coins</p> 
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">$10 | 10,000 Melody Coins</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">$50 | 50,000 Melody Coins</p> 
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="VoiceCommands">
+
+            <p class="titleBox">
+                Voice Commands
+
+                <a href="#" class="posAbs">Buy</a>
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="dashboard">
+                        Welcome to your dashboard here is where you can see your server
+                        settings for melody.
+                    </div>
+
+                    <div class="dashboard-col2">
+
+                        <div class="dashboard2">
+                            <iframe src="https://www.youtube.com/embed/H_iAtXVQ-y8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="youtube-vid" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="RudeCommands">
+
+            <p class="titleBox">
+                Rude Commands
+
+                <a href="#" class="posAbs">Buy</a>
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="dashboard">
+                        Welcome to your dashboard here is where you can see your server
+                        settings for melody.
+                    </div>
+
+                    <div class="content-column dashboard-col">
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="flex-row">
+                            
+                            <div class="topList3">
+
+                                <p class="comamndList">.nowplaying | View the music queue.</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                            <div class="topList3">
+
+                                <p class="comamndList">.stop | Stop music from player</p> 
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        
+        <div class="box-content tabcontent" id="TopServers">
+
+            <p class="titleBox">
+                Top 10 Servers
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="topList">
+
+                        <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="topImage">
+
+                        <p class="topName">Typer1 Discord Quarantine Zone</p>
+                        <p class="topPeople"><i class="fas fa-chart-bar"></i> 13</p>
+                        <p class="topPosition">2nd</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="TopSongs">
+
+            <p class="titleBox">
+                Top 10 Songs
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="topList">
+
+                        <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="topImage">
+
+                        <p class="topName">Typer1 Discord Quarantine Zone</p>
+                        <p class="topPeople"><i class="fas fa-chart-bar"></i> 13</p>
+                        <p class="topPosition">2nd</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="TopRadios">
+
+            <p class="titleBox">
+                Top 10 Radios
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="topList">
+
+                        <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="topImage">
+
+                        <p class="topName">Typer1 Discord Quarantine Zone</p>
+                        <p class="topPeople"><i class="fas fa-chart-bar"></i> 13</p>
+                        <p class="topPosition">2nd</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+        <div class="box-content tabcontent" id="RichestUser">
+
+            <p class="titleBox">
+                Richest Users
+            </p>
+            <div class="contentScroll"></div>
+            <div class="boxContent-info">
+
+                <div class="content-row">
+
+                    <div class="topList">
+
+                        <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="topImage">
+
+                        <p class="topName">Typer1 Discord Quarantine Zone</p>
+                        <p class="topPeople"><i class="fas fa-wallet"></i> 2,000 Coins</p>
+                        <p class="topPosition">1st</p>
+
+                    </div>
+
+ 
+
+
+                </div>
+
+
+            </div>
+            <div class="contentScroll2"></div>
+            
+
+
+            
+        </div>
+
+
+</div><!-- MAIN CONTENT -->
+
+<script>
+    function DropOpen() {
+        document.getElementById("dropdown-content").style.display = "block";
+    }
+</script>
+
+<script>
+    function DropClose() {
+        document.getElementById("dropdown-content").style.display = "none";
+    }
+</script>
+
+<script>
+
+    function openClass() {
+      var element = document.getElementById("se1");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass2() {
+      var element = document.getElementById("se2");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass3() {
+      var element = document.getElementById("se3");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass4() {
+      var element = document.getElementById("se4");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass5() {
+      var element = document.getElementById("se5");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass6() {
+      var element = document.getElementById("se6");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass7() {
+      var element = document.getElementById("se7");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+
+<script>
+
+    function openClass8() {
+      var element = document.getElementById("se8");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se9");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+<script>
+
+    function openClass9() {
+      var element = document.getElementById("se9");
+      element.classList.add("selected");
+
+      var element = document.getElementById("se1");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se2");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se3");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se4");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se5");
+      element.classList.remove("selected"); 
+
+      var element = document.getElementById("se7");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se8");
+      element.classList.remove("selected");
+
+      var element = document.getElementById("se6");
+      element.classList.remove("selected");
+    }
+    
+</script>
+
+
+<script>
+
+    function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+
+
+</html>
