@@ -1,7 +1,7 @@
 <html>
 
     <head>
-        <title>Melody</title>
+        <title>Melody Ngrok</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
@@ -26,14 +26,14 @@
 
 
                 <a href="#" class="profileHover" onclick="DropOpen()">
-                 <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="profileLogged">
-                    
-                 <div id="dropdown-content" style="display: none;">
-                    <p class="dropdownText"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="18px;" style="position:relative;top:2px;left:-2px;"> 12, 525</p>
-                    <p class="dropdownText-lg"  onmouseout="DropClose()"><i class="fas fa-sign-out-alt"></i> Logout</p>
-                    </div>
-                
-                </a>
+                    <img src="https://cdn.discordapp.com/attachments/712672325094473769/716643323846328380/DiscordPicture5.gif" class="profileLogged">
+                       
+                    <div id="dropdown-content" style="display: none;">
+                       <p class="dropdownText"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="18px;" style="position:relative;top:2px;left:-2px;"> 12, 525</p>
+                       <p class="dropdownText-lg"><i class="fas fa-sign-out-alt"></i> Logout</p>
+                       </div>
+                   
+                   </a>
             </div>
 
         </div>
@@ -63,8 +63,8 @@
                 General
             </p>
 
-            <a href="#" class="sideBar-navLink" id="se1" onclick="openCity(event, 'Settings'), openClass()"><i class="fas fa-cog"></i> Server Settings</a>
-            <a href="#" class="sideBar-navLink" id="se2" onclick="openCity(event, 'Commands'), openClass2()"><i class="fas fa-terminal"></i> Commands</a>
+            <a href="#" class="sideBar-navLink" id="se1" onclick="openCity(event, 'Settings'), openClass()"><i class="fas fa-cog position"></i> <p class="rudie">Server Settings</p></a>
+            <a href="#" class="sideBar-navLink" id="se2" onclick="openCity(event, 'Commands'), openClass2()"><i class="fas fa-terminal position"></i> <p class="rudie">Commands</p></a>
 
             <!-- NEW NAV -->
 
@@ -72,9 +72,9 @@
                 Shop
             </p>
 
-            <a href="#" class="sideBar-navLink" id="se3" onclick="openCity(event, 'MelodyCoins'), openClass3()"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="20p;" style="position:relative;top:2px;left:-2px;">Melody Coins</a>
-            <a href="#" class="sideBar-navLink" id="se4" onclick="openCity(event, 'VoiceCommands'), openClass4()"><i class="fas fa-microphone"></i> Voice Commands</a>
-            <a href="#" class="sideBar-navLink" id="se5" onclick="openCity(event, 'RudeCommands'), openClass5()"><i class="fas fa-keyboard"></i> Rude Commands</a>
+            <a href="#" class="sideBar-navLink" id="se3" onclick="openCity(event, 'MelodyCoins'), openClass3()"><img src="https://cdn.discordapp.com/attachments/712672325094473769/718094669774323802/Melody-Coins.png" width="20px;" height="20p;" class="position"><p class="rudie">Melody Coins</p></a>
+            <a href="#" class="sideBar-navLink" id="se4" onclick="openCity(event, 'VoiceCommands'), openClass4()"><i class="fas fa-microphone position"></i> <p class="rudie">Voice Commands</p></a>
+            <a href="#" class="sideBar-navLink" id="se5" onclick="openCity(event, 'RudeCommands'), openClass5()"><i class="fas fa-keyboard position"></i> <p class="rudie">Rude Commands</p></a>
 
             <!-- NEW NAV -->
 
@@ -82,10 +82,10 @@
                 Leaderboard
             </p>
 
-            <a href="#" class="sideBar-navLink" id="se6" onclick="openCity(event, 'TopServers'), openClass6()"><i class="fas fa-chart-bar"></i> Top 10 Servers</a>
-            <a href="#" class="sideBar-navLink" id="se7" onclick="openCity(event, 'TopSongs'), openClass7()"><i class="fas fa-chart-bar"></i> Top 10 Songs</a>
-            <a href="#" class="sideBar-navLink" id="se8" onclick="openCity(event, 'TopRadios'), openClass8()"><i class="fas fa-chart-bar"></i> Top 10 Radios</a>
-            <a href="#" class="sideBar-navLink" id="se9" onclick="openCity(event, 'RichestUser'), openClass9()"><i class="fas fa-wallet"></i> Richest Users</a>
+            <a href="#" class="sideBar-navLink" id="se6" onclick="openCity(event, 'TopServers'), openClass6()"><i class="fas fa-chart-bar position"></i> <p class="rudie">Top 10 Servers</p></a>
+            <a href="#" class="sideBar-navLink" id="se7" onclick="openCity(event, 'TopSongs'), openClass7()"><i class="fas fa-chart-bar position"></i> <p class="rudie">Top 10 Songs</p></a>
+            <a href="#" class="sideBar-navLink" id="se8" onclick="openCity(event, 'TopRadios'), openClass8()"><i class="fas fa-chart-bar position"></i> <p class="rudie">Top 10 Radios</p></a>
+            <a href="#" class="sideBar-navLink" id="se9" onclick="openCity(event, 'RichestUser'), openClass9()"><i class="fas fa-wallet position"></i> <p class="rudie">Richest Users</p></a>
 
             
 
@@ -729,7 +729,14 @@
 
 <script>
     function DropOpen() {
-        document.getElementById("dropdown-content").style.display = "block";
+        if (document.getElementById("dropdown-content").style.display === "none") {
+            document.getElementById("dropdown-content").style.display = 'block';
+        }
+
+        else {
+            document.getElementById("dropdown-content").style.display = 'none';
+        }
+
     }
 </script>
 
@@ -1003,6 +1010,7 @@
     }
     
 </script>
+
 
 <script>
 
