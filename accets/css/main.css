@@ -186,9 +186,43 @@ body {
 
 @media screen and (max-width: 991px) {
 
+  .header {
+    margin-top: 10vh;
+  }
+
   .header h2 {
     padding-left: 5vh;
     padding-right: 5vh;
+  }
+
+}
+
+@media screen and (max-width: 766px) {
+
+  .header h6 {
+    font-size: 20px;
+  }
+
+  .header h1 {
+    margin-top: 0vh;
+    font-size: 26px;
+  }
+
+  .header p {
+    font-size: 12px;
+  }
+
+  .header h2 {
+    padding-left: 0vh;
+    padding-right: 0vh;
+  }
+
+  .header button {
+    margin-right: 4vh;
+    margin-left: 4vh;
+
+    padding-left: 18px;
+    padding-right: 18px;
   }
 
 }
