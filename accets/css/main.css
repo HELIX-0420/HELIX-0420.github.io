@@ -24,7 +24,9 @@ body {
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
-.navbar-toggler-icon:focus {
+.navbar-toggler-icon:focus,
+ .dropdown-menu,
+ .dropdown-item{
     outline: none;
     box-shadow: none;
 }
