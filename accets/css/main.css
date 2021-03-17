@@ -25,10 +25,10 @@ body {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus,
- .dropdown-menu,
- .dropdown-item{
-    outline: none;
-    box-shadow: none;
+.dropdown-menu,
+.dropdown-item {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .navbar-brand, .navbar-brand:hover {
