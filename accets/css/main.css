@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'nasalization';
+  src: url('../fonts/nasalization-rg.ttf') format('truetype');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #2C2F33;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.0;
+}
+
+/* ANNOUNCEMENTS */
+.announcements {
+  padding-top: 14px;
+  color: #ffff;
+  font-size: 16px;
+  background-color: #ff847c;
+  font-weight: bolder;
+}
+
+.announcements img {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+/* NAVAGATION */
+.navbar {
+  padding-top: 10vh;
+}
+
+.navbar .nav-link.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: normal;
+    color: #f5af41;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .nav-link.title:hover {
+    color: #f5af41;
+}
+
+.navbar .left .activity {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar .left .activity {
+  padding-top: 6px;
+}
+
+.navbar .left .activity-start {
+    font-weight: 900;
+    color: #f5af41;
+    margin-right: 8px;
+    padding: 0;
+}
+
+.navbar .left .activity-end {
+    font-weight: 900;
+    color: #f5af41;
+    margin: 0 6px;
+}
+
+.navbar .left .time-date {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #969696;
+}
+
+/* HEADER */
+.header {
+  font-size: 50px;
+  color: #ffff;
+  font-family: 'nasalization', Fallback, sans-serif;
+}
+
+.box {
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+}
+
+/* CUSTOMER STATISTICS */
+
+/* CUSTOMER FEEDBACK */
+
+/* FOOTER */
+
+/* SCREEN EDITS */
+
+@media screen and (max-width: 1920px) {
+
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1180px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 766px) {
+
+}
+
+/* WEBSITE LOADER */
+
+/* THINGS THAT ARE NEEDED */
+
+.select-none {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#centered {
+  display: flex;
+  justify-content: center;
+}
+
+#divider {
+  position: relative;
+    top: 5px;
+    width: 1px;
+    height: 80px;
+    background: #fff;
+    opacity: 0.1;
+}
