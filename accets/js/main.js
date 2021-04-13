@@ -62,7 +62,7 @@ $(document).ready(function(){
         }
         $( '#activity-img' ).attr("src",iconDest);
 
-        document.getElementById("time").innerHTML = hoursIST + ":" + minutesIST + ":" + secondsIST;
+        document.getElementById("time").innerHTML = "GMT / " + hoursIST + ":" + minutesIST + ":" + secondsIST;
         document.getElementById("date").innerHTML = day + "/" + month + "/" + year;
 
     }, 3000)

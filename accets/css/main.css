@@ -6,8 +6,14 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #2C2F33;
+  background-color: #101318;
   overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
 }
 
 /* width */
@@ -48,7 +54,7 @@ body {
     color: #f5af41;
 }
 
-.navbar .left .activity {
+.navbar .activity {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -58,24 +64,24 @@ body {
     text-align: center;
 }
 
-.navbar .left .activity {
+.navbar .activity {
   padding-top: 6px;
 }
 
-.navbar .left .activity-start {
+.navbar .activity-start {
     font-weight: 900;
-    color: #f5af41;
+    color: #969696;
     margin-right: 8px;
     padding: 0;
 }
 
-.navbar .left .activity-end {
+.navbar .activity-end {
     font-weight: 900;
-    color: #f5af41;
+    color: #969696;
     margin: 0 6px;
 }
 
-.navbar .left .time-date {
+.navbar .time-date {
     margin-top: 6px;
     font-size: 14px;
     font-weight: 900;
@@ -84,17 +90,10 @@ body {
 
 /* HEADER */
 .header {
+  padding-top: 2vh;
   font-size: 50px;
   color: #ffff;
   font-family: 'nasalization', Fallback, sans-serif;
-}
-
-.box {
-  text-align: center;
-}
-
-.box img {
-  width: 100%;
 }
 
 /* CUSTOMER STATISTICS */
